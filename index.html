@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download de Documento - Pôster SCS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .card {
+            background: #1e293b;
+            padding: 40px 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 450px;
+            width: 100%;
+            border: 1px solid #334155;
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+            color: #38bdf8;
+        }
+        p {
+            color: #94a3b8;
+            font-size: 0.95rem;
+            margin-bottom: 24px;
+            line-height: 1.5;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #0ea5e9;
+            color: white;
+            padding: 12px 24px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.2s, transform 0.1s;
+            box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3);
+            width: 100%;
+            margin-bottom: 12px;
+        }
+        .btn:hover {
+            background-color: #0284c7;
+        }
+        .btn:active {
+            transform: scale(0.98);
+        }
+        .btn-secondary {
+            background-color: transparent;
+            color: #94a3b8;
+            border: 1px solid #475569;
+            box-shadow: none;
+        }
+        .btn-secondary:hover {
+            background-color: #334155;
+            color: #f8fafc;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Referências - Pôster SCS</h1>
+        <p>Clique no botão abaixo para baixar o documento oficial em PDF diretamente no seu dispositivo.</p>
+        
+        <!-- Substitua 'seu-arquivo.pdf' pelo nome real do PDF ou o link direto -->
+        <a href="documento.pdf" class="btn" download>Baixar PDF Agora</a>
+        <a href="documento.pdf" class="btn btn-secondary" target="_blank">Visualizar no Navegador</a>
+
+        <div class="footer">
+            Hospedado via GitHub Pages
+        </div>
+    </div>
+
+</body>
+</html>
